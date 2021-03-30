@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: rgb(245, 202, 191);
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #fff3dc;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #572020;
+    text-decoration: none;
+}
+body{
+    background-image: url(bahan/m1.jpg);
+    background-size: cover;
+}
+
+.gambar{border-radius: 10px; width: 250px; height: 70px}
+
+.paragraf{background: rgb(247, 230, 230,0.8);width:50%;
+    height: 70%;color: darksalmon;padding-top: 10px;
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;text-align: center;
+    background-position: center; margin: auto;}

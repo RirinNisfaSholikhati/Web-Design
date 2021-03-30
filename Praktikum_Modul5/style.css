@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(170, 241, 250);
+}
+h1{
+    color:rgb(0, 117, 196);font: bold;
+    text-align: center;
+    font-family: Impact;
+}
+p{
+    color: rgb(182, 6, 103);text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ParagrafA{
+    padding: 20px;
+    width: fit-content;
+    color: brown;
+    margin: 20px;
+    background-color: rgb(208, 233, 250);
+}
+
+#ParagrafB{
+    padding: 40px;
+    width: fit-content;
+    color: darkmagenta;
+    margin:auto;
+    background-color: darkturquoise;
+}
