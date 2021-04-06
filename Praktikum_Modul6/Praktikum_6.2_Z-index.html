@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Praktikum 6.2</title>
+        <style>
+            #layer{
+                position:absolute ;
+                margin: 20px 150px;
+                height: 200px;
+                width:200px;
+                background: yellow;
+                z-index: -1 ;
+
+            }
+            #layer2{
+                position: fixed;
+                margin: 100px 0;
+                height: 150px;
+                width: 300px;
+                background: lightblue;
+                z-index: -2 ;
+            }
+            #layer3{
+                position: relative;left: 20px;
+                margin: 0 20 px;
+                height: 200px;
+                width: 400px;
+                background: red;
+                z-index: -3  ;
+            }
+        </style>
+    </head>
+    <body style="background-image: url(bahan/back2.jpg);
+    background-size: cover;">
+        <div id="layer">Layer1</div>
+        <div id="layer2">Layer2</div>
+        <div id="layer3">Layer3</div>
+    </body>
+</html>

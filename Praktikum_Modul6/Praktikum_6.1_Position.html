@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Praktikum 6.1</title>
+        <style>
+            .static{
+                left: 100px;
+                position: static;
+                width: 300px;
+                height: 500px;
+                background: rgb(230, 5, 5);
+                border-radius: 10px;
+                text-align: center;
+            }
+
+            .relative{
+                left: 100px;
+                position: relative;
+                width: 400px;
+                height: 200px;
+                background: blue;
+                border-radius: 10px;
+                text-align: center;
+            }
+
+            .absolute{
+                left: 350px;
+                top: 150px;
+                position: absolute;
+                width: 300px;
+                height: 100px;
+                background: chocolate;
+                border-radius: 10px;
+                text-align: center;  
+            }
+
+            .fixed{
+                left: 300px;
+                top: 50px;
+                position: fixed;
+                width: 200px;height: 70px;
+                background: rgb(107, 164, 228);
+                border-radius: 10px;
+                text-align: center;
+            }
+            body{
+                background-image: url(bahan/back2.jpg);
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            Ini elemen Position Static.<br>Nilai Left "100px" tidak berpengaruh pada posisi elemen
+        </div>
+        <div class="relative">
+            Ini elemen Position Relative.<br> Nilai Left "100px" mengikuti alur
+        </div>
+        <div class="absolute">
+            Ini elemen Position Absolute.<br>Posisinya bisa diletakkan dimana saja
+        </div>
+        <div class="fixed">
+            Ini elemen Position Fixed.<br>Posisi elemen tetap sama walaupun discrool
+        </div>
+    </body>
+</html>
