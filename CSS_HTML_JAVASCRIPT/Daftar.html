@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>| Daftar | Menggabungkan CSS HTML dan JAVASCRIPT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-image: url(bahan/Background1.jpg);
+                background-size: cover;
+                
+            }
+            @font-face{
+                font-family: 'font';
+                src: url('font/Amanise.ttf');
+            }
+            #judul{
+                padding-top: 20px;
+                font-family: font;
+                color: white;
+                font-size: 150px;
+                margin: auto; text-align: center;
+                background-color: rgb(27, 27, 27, 0.5);background-size: cover;
+                border-top-left-radius: 50px;border-bottom-right-radius: 50px;
+            }
+
+            #font{
+                background-color: rgb(31, 29, 29, 0.5);
+                margin: auto;background-size: auto;
+                border-radius: 20px;
+                width: 450px;height: 35px;
+                color: white;font-family: font;
+                font-size: 30px;
+                padding-top: 10px;padding-bottom: 10px;
+            }
+            #form{
+                background-color: rgb(34, 33, 33);
+                color: white;
+                width: 350px; height: auto;
+                position: relative;padding-top: 9px;
+                border-radius: 15px;
+            }
+
+            #konten2{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function data(){
+                var nama = (document.dform.nama.value);
+                document.dform.onama.value = nama;
+                var prodi = (document.dform.prodi.value);
+                document.dform.oprodi.value = prodi;
+                var universitas = (document.dform.universitas.value);
+                document.dform.ouniversitas.value = universitas;
+                var alamat = (document.dform.alamat.value);
+                document.dform.oalamat.value = alamat;
+                var keterangan = (document.dform.keterangan.value);
+                document.dform.oket.value = keterangan;
+            }
+            
+        </script>
+        <div id="judul">
+            Photography Contest
+        </div><br>
+        
+        <form name="dform">
+            <center><div id="font">
+                Untuk Mendaftar Silahkan Isi Formulir di Bawah Ini
+            </div></center><br>
+<center>
+    <div id="form">
+<pre>
+    Nama            : <input type="text" name="nama"><br>
+    Prodi           : <input type="text" name="prodi"><br>
+    Universitas     : <input type="text" name="universitas"><br>
+    Alamat          : <input type="text" name="alamat"><br>
+    Jenis Kelamin   : <input type="text" name="keterangan"><br>
+</pre>
+</div></center>
+            <br><br> 
+            <center>
+            <a href="Submit.html"><input type="button" value="Submit"></a>
+            <a href="Home.html"><input type="button" value="Cancel"></a>
+            </input></center>
+            
+        </div>
+    </body>
+</html>

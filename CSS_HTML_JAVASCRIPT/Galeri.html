@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>| Galeri | Menggabungkan CSS HTML & JAVASCRIPT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-image: url(bahan/Background1.jpg);
+                background-size: cover;color: white;
+            }
+
+            #konten{
+                background-color: rgb(31, 29, 29, 0.5);
+                background-size: cover;
+                margin-top: 20px;margin-bottom: 20px;
+                margin-left: 20px;margin-right: 20px;
+                border-top-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+
+            @font-face{
+                font-family: 'font';
+                src: url('font/Amanise.ttf');
+            }
+
+            #judul{
+                color: white;
+                text-align: center;
+                font-size: 75px;
+                padding-top: 20px;
+                font-family: font;
+                border-style: dashed;
+                border-width: 5px;
+                
+            }
+            a:link, a:visited{
+                color:white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                border-style: solid;
+                display: inline-block;
+            }
+
+            .button1 #Kembali{
+            }
+        </style>
+    </head>
+    <body>
+        <div id="konten">
+            <div id="judul">
+                Galeri
+            </div>
+            
+            <center><table cellspacing="12" cellpadding="10">
+                <tr>
+                    <td><img src="bahan/1.jpg" style="width: 275px;height: 375px;"></td>
+                    <td><img src="bahan/2.jpg" style="width: 275px;height: 375px;"></td>
+                    <td><img src="bahan/3.jpg" style="width: 275px;height: 375px;"></td>
+                    <td><img src="bahan/4.jpg" style="width: 275px;height: 375px;"></td>
+                </tr><br>
+            </table><br>
+            <div class="button1">
+                <div id="Kembali">
+                    <a href="Home.html">Kembali</a>
+                </div>
+            </div>  
+            </center>
+
+              
+        </div>
+    </body>
+</html>
